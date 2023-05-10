@@ -12,6 +12,6 @@ public class MyProfile {
         System.out.println("lim");
         System.out.println("a0lim816@gmail.com");
         System.out.println("female");
-        // println 대신 print를 사용하는 경우: /n 이 없어짐(모두 이어서 출력됨)
+        // println 대신 print를 사용하는 경우: 줄바꿈 없음(모두 이어서 출력됨)
     }
 }
