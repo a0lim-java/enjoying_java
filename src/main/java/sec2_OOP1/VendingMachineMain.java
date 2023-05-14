@@ -10,5 +10,8 @@ package sec2_OOP1;
 public class VendingMachineMain {
     public static void main(String[] args){
         VendingMachine vm1 = new VendingMachine(); // 인스턴스 생성
+
+        String product = vm1.pushProductButton(100);
+        System.out.println(product);
     }
 }

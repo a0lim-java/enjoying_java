@@ -12,5 +12,8 @@ package sec2_OOP1;
  */
 
 public class VendingMachine {
-
+    public String pushProductButton(int menuId){
+        System.out.println(menuId + "를 전달받았습니다.");
+        return "콜라";
+    }
 }
