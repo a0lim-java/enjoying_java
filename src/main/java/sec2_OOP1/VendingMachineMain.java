@@ -12,6 +12,9 @@ public class VendingMachineMain {
         VendingMachine vm1 = new VendingMachine(); // 인스턴스 생성
 
         String product = vm1.pushProductButton(100);
+        vm1.printVersion(); // static 메소드: 레퍼런스변수명.static메소드() 로 호출 가능(권장 X)
         System.out.println(product);
+
+        VendingMachine.printVersion(); // static 메소드: 클래스이름.메소드명()
     }
 }
