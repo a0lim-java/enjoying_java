@@ -18,3 +18,11 @@ public class VendingMachineMain {
         VendingMachine.printVersion(); // static 메소드: 클래스이름.메소드명()
     }
 }
+
+// cmd 실행 시
+// javac VendingMachine.java
+// javac VendingMachineMain.java
+// java VendingMachineMain
+// VendingMachineMain을 어디서 찾아서 실행할까요?
+// 답: CLASSPATH 경로에서 VendingMachineMain 클래스를 찾아서 실행한다.
+// CLASSPATH 경로: 소스 컴파일 -> out/production/[프로젝트 폴더]/[자바 파일]

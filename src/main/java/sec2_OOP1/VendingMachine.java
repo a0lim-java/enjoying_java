@@ -17,7 +17,9 @@ public class VendingMachine {
         return "콜라";
     }
 
+    // static 메소드: 인스턴스(String 등) 없이 사용 가능
     public static void printVersion(){ // static: 인스턴스 없이 사용 가능
         System.out.println("v1.0");
     }
+
 }
